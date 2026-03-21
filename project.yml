@@ -1,0 +1,40 @@
+name: iiCo
+options:
+  bundleIdPrefix: com.popkids
+  deploymentTarget:
+    iOS: "16.0"
+  xcodeVersion: "15"
+
+settings:
+  base:
+    SWIFT_VERSION: 5.9
+    DEVELOPMENT_TEAM: ""
+    ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+
+targets:
+  iiCo:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources
+    info:
+      path: Sources/iiCo/Resources/Info.plist
+      properties:
+        UILaunchScreen:
+          UIColorName: ""
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        NSLocalNetworkUsageDescription: "近くの端末を検知するためにローカルネットワークを使用します。"
+        NSBluetoothAlwaysUsageDescription: "近くの端末を検知するためにBluetoothを使用します。"
+        NSNearbyInteractionUsageDescription: "近くの端末との距離を測定するために使用します。"
+        NSBonjourServices:
+          - "_iico-nearby._tcp"
+          - "_iico-nearby._udp"
+        NSUserNotificationsUsageDescription: "近くの端末を検知したときに通知で知らせます。"
+        UIBackgroundModes:
+          - bluetooth-central
+          - bluetooth-peripheral
+    dependencies: []
+    scheme:
+      testTargets: []
