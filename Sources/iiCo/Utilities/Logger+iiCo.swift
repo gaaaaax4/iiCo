@@ -1,7 +1,7 @@
 import OSLog
 
 extension Logger {
-    private static let subsystem = Bundle.main.bundleIdentifier ?? "com.popkids.iico"
+    private static let subsystem = Bundle.main.bundleIdentifier ?? "com.n2o.iico"
 
     /// MultipeerConnectivity 関連ログ
     static let mc = Logger(subsystem: subsystem, category: "MultipeerConnectivity")

@@ -8,7 +8,7 @@
 
 ## 2. App Configuration
 
-- [x] Bundle ID is set: com.popkids.iico
+- [x] Bundle ID is set: com.n2o.iico
 - [x] iOS deployment target: 16.0
 - [x] Photo library usage description present
 - [x] Microphone usage description present
