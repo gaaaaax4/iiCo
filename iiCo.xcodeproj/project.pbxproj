@@ -10,24 +10,24 @@
 		0BA2B8F0C569AB9994C386E6 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AA4BF9E391286AEC1E117B /* PlayView.swift */; };
 		19C70CBF8EA21186AB378ED3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414943109754DDEE496D0C23 /* HomeView.swift */; };
 		1ADA7779C89359C1923F9090 /* iiCoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7D474F38FBE2AF71F4D39D /* iiCoApp.swift */; };
-		3388CCA6B88A20FC6BBAE1A3 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2649EAFEBFF92DDBE6B1869D /* NotificationManager.swift */; };
-		3CB3748DE542865BC998EC6A /* NearbyInteractionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA0257C12300A04F342E1FB /* NearbyInteractionManager.swift */; };
+		2AB3CD4EF5061728394A5B6C /* ImageAudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC4DE5F61728394A5B6C7D8 /* ImageAudioManager.swift */; };
 		893DDE21C7BBCBC18602D3D4 /* Logger+iiCo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7347F7E3019231B1CA1F14D /* Logger+iiCo.swift */; };
 		ABE331D6E54F056A5D5641A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E1E6E8F6E5999E96E384756 /* Assets.xcassets */; };
 		CC10203040506070809000CC /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD10203040506070809000DD /* AppColors.swift */; };
 		EEAF2D96AA4A90DE1CD651F7 /* ProximityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528AE42ECAFD692B2C5ACFA1 /* ProximityManager.swift */; };
+		F0A1B2C3D4E5F60718293A4B /* RegisteredImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A2B3C4D5E6F708192A3B4C /* RegisteredImageStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1FA0257C12300A04F342E1FB /* NearbyInteractionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyInteractionManager.swift; sourceTree = "<group>"; };
-		2649EAFEBFF92DDBE6B1869D /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		414943109754DDEE496D0C23 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3BC4DE5F61728394A5B6C7D8 /* ImageAudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAudioManager.swift; sourceTree = "<group>"; };
 		528AE42ECAFD692B2C5ACFA1 /* ProximityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProximityManager.swift; sourceTree = "<group>"; };
 		5E1E6E8F6E5999E96E384756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA7D474F38FBE2AF71F4D39D /* iiCoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iiCoApp.swift; sourceTree = "<group>"; };
 		CCCB59D6A162F360D4C9F301 /* iiCo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iiCo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD10203040506070809000DD /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		E8AA4BF9E391286AEC1E117B /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		F1A2B3C4D5E6F708192A3B4C /* RegisteredImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisteredImageStore.swift; sourceTree = "<group>"; };
 		F7347F7E3019231B1CA1F14D /* Logger+iiCo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logger+iiCo.swift"; sourceTree = "<group>"; };
 		FC3C5CC5B57118AC0FC2F486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -36,9 +36,9 @@
 		039D3ACD3FAA026E714CB731 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				1FA0257C12300A04F342E1FB /* NearbyInteractionManager.swift */,
-				2649EAFEBFF92DDBE6B1869D /* NotificationManager.swift */,
+				3BC4DE5F61728394A5B6C7D8 /* ImageAudioManager.swift */,
 				528AE42ECAFD692B2C5ACFA1 /* ProximityManager.swift */,
+				F1A2B3C4D5E6F708192A3B4C /* RegisteredImageStore.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -173,10 +173,10 @@
 				19C70CBF8EA21186AB378ED3 /* HomeView.swift in Sources */,
 				893DDE21C7BBCBC18602D3D4 /* Logger+iiCo.swift in Sources */,
 				CC10203040506070809000CC /* AppColors.swift in Sources */,
-				3CB3748DE542865BC998EC6A /* NearbyInteractionManager.swift in Sources */,
-				3388CCA6B88A20FC6BBAE1A3 /* NotificationManager.swift in Sources */,
 				0BA2B8F0C569AB9994C386E6 /* PlayView.swift in Sources */,
+				2AB3CD4EF5061728394A5B6C /* ImageAudioManager.swift in Sources */,
 				EEAF2D96AA4A90DE1CD651F7 /* ProximityManager.swift in Sources */,
+				F0A1B2C3D4E5F60718293A4B /* RegisteredImageStore.swift in Sources */,
 				1ADA7779C89359C1923F9090 /* iiCoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
