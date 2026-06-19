@@ -38,7 +38,9 @@
 - [ ] Prepare screenshots for target devices
 - [ ] Prepare App Privacy answers
 - [ ] Prepare age rating answers (kids app)
-- [ ] Confirm support URL and privacy policy URL
+- [ ] Publish privacy policy page with operator/contact details filled in
+- [ ] Confirm Privacy Policy URL is set in App Store Connect
+- [ ] Confirm support URL and privacy policy URL both resolve without login
 
 ## 6. Signing and Distribution
 
